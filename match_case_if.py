@@ -35,7 +35,10 @@ while attempt < max_attempt and not correct_guess:
             print("Too high")
         case _ if guess == random_number:
             print("Congratulations!")
+            correct_guess = True
+            break
 
 
 if not correct_guess:
     print(f"Sorry you have exceeded your trial {max_attempt}, the correct number is {random_number}")
+    pass
