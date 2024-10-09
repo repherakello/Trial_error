@@ -40,7 +40,7 @@ print(type(45))
 print(type(range(5)))
 
 for x in [1,2,3,4,5]:
-     print(x)
+     print(x, end =" ")
 count = 0
 for number in range(1,10):
     if number % 2 == 0:
