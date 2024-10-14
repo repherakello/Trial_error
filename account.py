@@ -54,8 +54,9 @@ match value:
     case _:
         print("invalid input",value)
 
-
+# A list example
 fruits = ["apple","mangoe","orange"]
 
 for fruit in fruits:
     print(fruit)
+print(f"This is how we access data in a list: {fruits[1]}")

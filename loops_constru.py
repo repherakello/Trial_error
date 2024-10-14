@@ -13,7 +13,9 @@ while count <= 3:
         print("Awesome guess!")
         break
     elif number1 - number2 != answer:
+        print("Wrong number, try again:")
         count += 1
     if count == 3:
         print("Wrong input!\n", number1, '-', number2, "is", number1 - number2, ".")
+        break
     

@@ -23,7 +23,10 @@ email_e = input("enter your email: \n")
 correct_email = "akelloreph@gmail.com"
 
 while email_e != correct_email:
-    email_e = input("enter your email: \n")
-    pass
-    pass
-print("success!!!")
+    if email_e == correct_email:
+        print("success!!!")
+    else:
+        print(f"wrong input:The correct email is, {correct_email}")
+        break
+    
+

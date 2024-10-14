@@ -58,7 +58,7 @@ outer_function()
 def called(name):
     print("Hello!How you doing",name)
 
-called("Repher?")
+called("Repher")
 
 #Work 2: function which calculate the area of a rectangle.
 
@@ -69,11 +69,15 @@ def area_rectangle(length,width):
 print(area_rectangle(3,6))
 
 def check_odd_even():
-    number =eval(input("enter the number:"))
+    
+    number =int(input("enter the number to check if its even or odd:"))
     if number % 2 == 0:
         print("The number is even:",number)
     elif number %2 != 0:
         print("The number is an odd number", number)
+    elif number != int:
+        print("Wrong input")
     else:
         print("Wrong input!")
+        number1 +=1
 check_odd_even()
